@@ -1,0 +1,4 @@
+[submodule "sunbits-blog/public"]
+	path = sunbits-blog/public
+	url = https://github.com/catbree/catbree.github.io.git
+	branch = main

@@ -1,0 +1,6 @@
+    <div class="post-card" onclick="location.href='{{ .RelPermalink }}';">
+        {{ partial "post-date.html" . }}
+        <h4 class="margin-top">{{ .Title }}</h4>
+        <p>{{ .Summary }}</p>
+        {{ partial "post-tags.html" . }}
+    </div>

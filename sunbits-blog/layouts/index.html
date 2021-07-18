@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+{{ range first 4 .Site.RegularPages.ByPublishDate.Reverse }}
+  {{ partial "post-card.html" . }}
+{{ end }}
+
+
+<button class="button primary-button">View All Articles</button>
+
+{{ end }}

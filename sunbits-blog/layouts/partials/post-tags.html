@@ -1,0 +1,9 @@
+<div class="margin-top">
+    <p class="caption">Relevant tags:
+        {{ with .Params.tags }}
+        {{ range . }}
+        <span class="caption tag">{{ . }}</span>
+        {{ end }}
+        {{ end }}
+    </p>
+</div>

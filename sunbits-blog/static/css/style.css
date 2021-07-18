@@ -1,0 +1,104 @@
+* {
+    max-width: 1120px;
+    margin: auto;
+    font-size: 18px;
+
+}
+
+h1 {
+    font-size: 7.594rem;
+}
+
+h2 {
+    font-size: 5.063rem;
+}
+
+h3 {
+    font-size: 3.375rem;
+}
+
+h4 {
+    font-size: 2.25rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.caption {
+    font-size: 0.8rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.nav-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-header a {
+    padding: 8px;
+    text-decoration: none;
+    color: brown;
+}
+
+.margin-top {
+    margin-top: 8px;
+}
+
+.margin-bottom {
+    margin-bottom: 8px;
+}
+
+.post-card {
+    display:block;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 4px 0px  rgba(33,33,33,0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.post-card:hover {
+    box-shadow: 1px 1px 11px rgba(33,33,33,0.2);
+}
+
+
+.sunbits-title {
+    display: flex;
+}
+
+.sunbits-title-image {
+    max-width: 240px;
+}
+
+.tag {
+    background-color: yellowgreen;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin:auto;
+}
+
+.primary-button {
+    background-color: brown;
+    color: white;
+    font-size: 16px;
+}
