@@ -1,10 +1,12 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-
+<h3>{{ .Title }}</h3>
+<br>
 {{ range .Pages.ByPublishDate.Reverse }}
 <ul>
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 </ul>
-
 {{ end }}
+<br>
+<button onclick="location.href= {{ .Site.BaseURL }}" class="button primary-button">Return Home</button>
+
 {{ end }}

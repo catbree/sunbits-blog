@@ -1,8 +1,15 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ partial "post-date.html" . }}
-{{ partial "post-tags.html" . }}
+<div class='single-page-container'>
+    {{ partial "post-date.html" . }}
+    <h3 class="margin-top">{{ .Title }}</h3>
+    <br>
+    <div class="post-content">
+        {{ .Content }}   
+    </div>
+    {{ partial "post-tags.html" . }}
+    <br>
+    <button onclick="location.href= {{ .Site.BaseURL }}" class="button primary-button">Return Home</button>
+</div>
 
-<br>
-{{ .Content }}
 {{ end }}
+

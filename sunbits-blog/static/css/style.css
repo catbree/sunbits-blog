@@ -1,12 +1,27 @@
+
+
+/* -------- Site-Wide -------- */
+
 * {
     max-width: 1120px;
     margin: auto;
-    font-size: 18px;
+}
 
+body {
+    margin-top: 16px;
+    background-color: #FFFCF5;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: #281200;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 h1 {
-    font-size: 7.594rem;
+    font-size: 9rem;
+    color: #BF3B53;
+    font-family: 'Nanum Pen Script', cursive;
+    letter-spacing: 16px;
 }
 
 h2 {
@@ -14,11 +29,17 @@ h2 {
 }
 
 h3 {
-    font-size: 3.375rem;
+    font-size: 4.5rem;
+    font-family: 'Nanum Pen Script', cursive;
+    line-height: 95%;
+
 }
 
 h4 {
-    font-size: 2.25rem;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+    line-height: 80%;
 }
 
 h5 {
@@ -27,25 +48,26 @@ h5 {
 
 p {
     font-size: 1rem;
+    line-height: 180%;
+    font-weight: 400;
+}
+
+li {
+    font-size: 1rem;
+    padding-bottom:4px;
+}
+
+a {
+    color: #BF3B53;
 }
 
 .caption {
     font-size: 0.8rem;
+    font-weight: 400;
 }
 
 .italic {
     font-style: italic;
-}
-
-.nav-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.nav-header a {
-    padding: 8px;
-    text-decoration: none;
-    color: brown;
 }
 
 .margin-top {
@@ -56,38 +78,15 @@ p {
     margin-bottom: 8px;
 }
 
-.post-card {
-    display:block;
-    cursor: pointer;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-radius: 8px;
-    margin-bottom: 32px;
-    box-shadow: 0px 0px 4px 0px  rgba(33,33,33,0.2);
-    transition: all 0.3s ease-in-out;
+.margin-left {
+    margin-left: 8px;
 }
 
-.post-card:hover {
-    box-shadow: 1px 1px 11px rgba(33,33,33,0.2);
+.margin-right {
+    margin-right: 8px;
 }
 
-
-.sunbits-title {
-    display: flex;
-}
-
-.sunbits-title-image {
-    max-width: 240px;
-}
-
-.tag {
-    background-color: yellowgreen;
-    padding-left: 4px;
-    padding-right: 4px;
-    border-radius: 4px;
-}
+/* -------- Buttons -------- */
 
 .button {
     padding: 12px 24px;
@@ -95,10 +94,166 @@ p {
     border-radius: 4px;
     display: block;
     margin:auto;
+    cursor: pointer;
 }
 
 .primary-button {
-    background-color: brown;
-    color: white;
+    background-color: #A52A2A;
+    color: #FFFCF5;
     font-size: 16px;
+}
+
+/* -------- Navigation + Header + Head -------- */
+
+.nav-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-header a {
+    padding: 8px;
+    text-decoration: none;
+    color: #BF3B53;
+}
+
+.sunbits-title {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .sunbits-title {
+        max-width: 500px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .sunbits-title {
+        max-width: 340px;
+    }
+}
+
+.sunbits-title-image {
+    max-width: 240px;
+    height:auto;
+}
+
+@media screen and (max-width: 900px) {
+    .sunbits-title-image {
+        max-width: 120px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .sunbits-title-image {
+        max-width: 80px;
+        height: auto;
+    }
+}
+
+.sunbits-title h1 {
+    color: #602B01;
+}
+
+@media screen and (max-width: 900px) {
+    .sunbits-title h1 {
+        font-size: 5rem;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .sunbits-title h1 {
+        font-size: 2rem;
+    }
+}
+
+/* -------- Post Card -------- */
+
+.post-card {
+    display:block;
+    cursor: pointer;
+    background-color: white;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+
+    box-shadow: 0px 0px 4px 0px  rgba(33,33,33,0.2);
+    transition: all 0.3s ease-in-out;
+    text-align: justify;
+}
+
+.post-card:hover {
+    box-shadow: 1px 1px 11px rgba(33,33,33,0.2);
+}
+
+.tag {
+    background-color:#F0BF00;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left:4px;
+    border-radius: 4px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1rem;
+
+}
+
+/* -------- Single Post -------- */
+
+.single-page-container {
+    max-width: 800px;
+}
+
+.post-content * {
+    margin-bottom: 24px;
+}
+
+
+
+.post-content h1 {
+    font-size: 2.25rem;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0px;
+    color: #281200;
+    font-weight: 500;
+
+}
+
+.post-content h2 {
+    font-size: 1.5rem;
+}
+
+.post-content h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.post-content p {
+    font-size: 1rem;
+}
+
+.post-content blockquote {
+    margin-left: 24px;
+    padding-left: 16px;
+    border-left: solid 4px #BF3B53
+}
+
+/* -------- Footer -------- */
+
+.footer {    
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.2rem;
+
+    margin-top: 16px;
+    padding-top: 24px;
+    padding-bottom:24px;
+    text-align: center;
+
 }
