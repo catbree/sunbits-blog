@@ -1,13 +1,15 @@
 ---
-title: "Book Review: Don't Make Me Think,Revisited"
-date: 2021-06-02T17:00:34+08:00
-image: 'steve krug.png'
+title: "Book Review: Don't Make Me Think, Revisited"
+date: 2021-07-30T17:42:34+08:00
 draft: false
-category: "UX Design"
+tags: ["Design", "Book Review"]
 ---
 
-## Overview
-This is Steve Krug, the person behind _Don't Make Me Think, Revisited_ (DMMT). Steve is a usability consultant who seems to really enjoy what he's doing. If I had to describe DMMT in three words, it would be: **honest-to-goodness**.
+If I had to describe DMMT in three words, it would be: **honest-to-goodness**.
+<!--more-->
+
+![Steve Krug](/images/stevekrug.png)
+This is Steve Krug, the person behind _Don't Make Me Think, Revisited_ (DMMT). Steve is a usability consultant who seems to really enjoy what he's doing. 
 
 DMMT is a short book on web and mobile usability. It was originally published in 2000 and had since been updated twice, leading up to the third edition that we currently have today.
 

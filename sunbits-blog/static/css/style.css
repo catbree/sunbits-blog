@@ -13,8 +13,22 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
     color: #281200;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding-left:16px;
+        padding-right:16px;
+    }
 }
 
 h1 {
@@ -35,6 +49,18 @@ h3 {
 
 }
 
+@media screen and (max-width: 900px) {
+    h3 {
+        font-size: 3.2rem;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    h3 {
+        font-size: 2.5rem;
+    }
+}
+
 h4 {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 3.2rem;
@@ -42,18 +68,28 @@ h4 {
     line-height: 80%;
 }
 
+@media screen and (max-width: 900px) {
+    h4 {
+        font-size: 2.5rem;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    h4 {
+        font-size: 1.5rem;
+    }
+}
+
 h5 {
     font-size: 1.5rem;
 }
 
 p {
-    font-size: 1rem;
     line-height: 180%;
     font-weight: 400;
 }
 
 li {
-    font-size: 1rem;
     padding-bottom:4px;
 }
 
@@ -186,7 +222,21 @@ a {
 
     box-shadow: 0px 0px 4px 0px  rgba(33,33,33,0.2);
     transition: all 0.3s ease-in-out;
-    text-align: justify;
+}
+
+@media screen and (max-width: 900px) {
+    .post-card {
+        font-size: 16px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .post-card {
+        font-size: 14px;
+        padding-left:16px;
+        padding-right:16px;
+        margin-bottom: 16px;
+    }
 }
 
 .post-card:hover {
@@ -207,14 +257,12 @@ a {
 /* -------- Single Post -------- */
 
 .single-page-container {
-    max-width: 800px;
+    max-width: 720px;
 }
 
 .post-content * {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
-
-
 
 .post-content h1 {
     font-size: 2.25rem;
@@ -222,27 +270,39 @@ a {
     letter-spacing: 0px;
     color: #281200;
     font-weight: 500;
-
 }
+
+@media screen and (max-width: 900px) {
+    .post-content h1 {
+        font-size: 1.5rem;
+    }
+  }
 
 .post-content h2 {
     font-size: 1.5rem;
+    margin-top: 40px;
 }
 
 .post-content h3 {
     font-size: 1.1rem;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
+    margin-top: 32px;
+
 }
 
 .post-content p {
-    font-size: 1rem;
+    margin-bottom:24px;
 }
 
 .post-content blockquote {
     margin-left: 24px;
     padding-left: 16px;
     border-left: solid 4px #BF3B53
+}
+
+.post-content img {
+    width:100%;
 }
 
 /* -------- Footer -------- */
