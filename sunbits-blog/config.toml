@@ -1,6 +1,6 @@
 baseURL = "https://catbree.github.io/"
 languageCode = "en-us"
-title = "Sunbits by Hoi Cheng"
+title = "Sunbits"
 summaryLength = 35
 
 [menu]

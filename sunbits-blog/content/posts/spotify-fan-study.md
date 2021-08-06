@@ -1,6 +1,6 @@
 ---
 title: "Website Highlight: Spotify Fan Study"
-date: 2021-08-06T16:58:30+08:00
+date: 2021-08-06T10:30:00+08:00
 draft: false
 tags: ["Design", "Website Highlight"]
 ---
