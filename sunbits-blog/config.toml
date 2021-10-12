@@ -14,3 +14,8 @@ summaryLength = 35
     pre = "pen-tool"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+    name = "About"
+    pre = ""
+    url = "/about/"
+    weight = 3
