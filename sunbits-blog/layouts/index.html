@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ range first 2 .Site.RegularPages.ByPublishDate.Reverse }}
+{{ range first 3 .Site.RegularPages.ByPublishDate.Reverse }}
   {{ partial "post-card.html" . }}
 {{ end }}
 

@@ -1,6 +1,6 @@
 ---
 title: "Sunbits 1.1.0 Update"
-date: 2021-10-12T20:30:00+08:00
+date: 2021-10-12T19:00:00+08:00
 draft: false
 tags: ["Sunbits", "Design", "Programming", "Feels"]
 ---
@@ -29,7 +29,7 @@ My posts are written in Hugo in Markdown so I hadn't been able to post videos. I
 As a demonstration, here's a gif of a game that I'm currently obsessed with.
 
 {{< rawhtml >}}
-    <iframe src="https://giphy.com/embed/KufI7NaMR1Epa" width="480" height="313" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <iframe src="https://giphy.com/embed/KufI7NaMR1Epa" width="100%" height="313" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 {{< /rawhtml >}}
 
 ### About page
