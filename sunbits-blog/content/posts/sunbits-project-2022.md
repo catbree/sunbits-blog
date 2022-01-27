@@ -1,6 +1,6 @@
 ---
 title: "Sunbits Project 2022"
-date: 2022-01-27T19:00:00+08:00
+date: 2022-01-26T19:00:00+08:00
 draft: false
 tags: ["Sunbits Project"]
 ---
@@ -87,3 +87,11 @@ This is mostly for personal accountability. But here's the following rules to th
 I think I'll stop right here before anxiety catches up to me and I decide against posting this! For the record, I'm extremely excited to start on my new projects.
 
 Toodles and Happy 2022!
+
+### 27/01/22 Update:
+ 
+I watched a video that was very in-line with this blog post and thought I'd share it. It's about Mark and his journey towards creating a fully-functioning MVP game in 30 days. Spoiler: He made it! And it's such an inspiration of what a properly planned project can actually look like. 
+
+{{< rawhtml >}}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0lhjLNYopHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /rawhtml >}}
